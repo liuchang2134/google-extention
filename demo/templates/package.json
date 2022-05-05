@@ -1,0 +1,15 @@
+{
+  "name": "chrome-extention",
+  "version": "1.0.0",
+  "main": "chrome-extention",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.180",
+    "types": "^0.1.1"
+  },
+  "description": ""
+}

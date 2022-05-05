@@ -1,0 +1,31 @@
+{
+    "name":"Linkdln extention",
+    "version":"1.0.0",
+    "description":"爬虫抓包的",
+    "manifest_version":2,
+    "background":{
+        "scripts":["background.js"],
+        "persistent":false
+    },
+    "content_concepts":[
+        {
+            "js":["content.js"],
+            "matches":["https://www.google.com/*"]
+        }
+    ],
+    "permissions":[
+        "contextMenus"
+    ],
+    "permissions":[
+        "bookmarks"   
+    ],
+    "icons":{
+        "16":"7c42fb8f8d8a384ab372e73828832d7.png",
+        "48":"7c42fb8f8d8a384ab372e73828832d7.png",
+        "128":"7c42fb8f8d8a384ab372e73828832d7.png"
+    },
+    "browser_action":{
+        "default_title":"Created by Chang Liu ,enjoy!",
+        "default_popup":"popup.html"
+    }
+}
